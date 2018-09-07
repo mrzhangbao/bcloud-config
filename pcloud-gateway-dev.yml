@@ -1,7 +1,7 @@
 zuul:
   routes:
     api-user:
-      path: /api-user-t/**
+      path: /api-user/**
       serviceId: user-service
     api-pay:
       path: /api-pay/**
